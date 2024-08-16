@@ -115,6 +115,15 @@ printf("%d", myNum);  // Outputs: 15
 - Use %f for floats.
 - Use %c for characters.
 - Combine text and variables by separating them with commas in printf().
+
+# Print Values Without Variables
+You can also just print a value without storing it in a variable, as long as you use the correct format specifier:
+
+Example
+```C
+printf("My favorite number is: %d", 15);
+printf("My favorite letter is: %c", 'D');
+```
          
 
 
